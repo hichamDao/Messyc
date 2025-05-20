@@ -19,6 +19,9 @@ jobs:
         with:
           flutter-version: "3.27.0"
 
+      - name: Flutter Upgrade
+        run: flutter upgrade
+
       - name: Accept Android SDK Licenses
         run: yes | sdkmanager --licenses || true
         env:
@@ -42,4 +45,3 @@ jobs:
         with:
           name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-
