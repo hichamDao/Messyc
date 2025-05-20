@@ -30,8 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  ffi: ^2.1.4         # latest compatible
-  tflite_flutter: ^0.11.0
+  tflite_flutter: ^0.9.5
+  tflite_flutter_helper: any
   camera: ^0.11.0
   image:
   image_picker:
