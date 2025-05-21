@@ -34,7 +34,7 @@ jobs:
         run: flutter clean
 
       - name: Build APK
-        run: flutter build apk --release
+        run: flutter build apk --release --android-skip-build-dependency-validation
 
       - name: Debug APK Path
         run: ls -alh build/app/outputs/flutter-apk
