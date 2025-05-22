@@ -24,3 +24,7 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+android {
+    namespace 'org.tensorflow.lite.flutter' // ou ce qui est cohérent
+}
+
