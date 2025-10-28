@@ -19,7 +19,11 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
+<<<<<<< HEAD
   sdk: ">=3.7.0 <4.0.0"
+=======
+  sdk: ^3.5.4
+>>>>>>> sauvegarde_commits
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,9 +34,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   tflite_flutter: ^0.9.5
   tflite_flutter_helper: any
   camera: ^0.10.5+9
+=======
+  tflite_flutter: ^0.12.1
+  tflite_flutter_helper: ^0.2.1
+  camera: ^0.11.0
+>>>>>>> sauvegarde_commits
   image:
   image_picker:
   provider:
@@ -43,6 +53,10 @@ dependencies:
   speech_to_text: ^7.0.0
   permission_handler:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> sauvegarde_commits
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -56,7 +70,11 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
+<<<<<<< HEAD
   flutter_lints: ^5.0.0
+=======
+  flutter_lints: ^4.0.0
+>>>>>>> sauvegarde_commits
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

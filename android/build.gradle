@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 buildscript {
     repositories {
         google()
@@ -8,6 +9,8 @@ buildscript {
     }
 }
 
+=======
+>>>>>>> sauvegarde_commits
 allprojects {
     repositories {
         google()
@@ -18,10 +21,18 @@ allprojects {
 rootProject.buildDir = "../build"
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
+<<<<<<< HEAD
+=======
+}
+subprojects {
+>>>>>>> sauvegarde_commits
     project.evaluationDependsOn(":app")
 }
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> sauvegarde_commits

@@ -16,7 +16,11 @@ jobs:
       - name: 🐦 Install Flutter
         uses: subosito/flutter-action@v2
         with:
+<<<<<<< HEAD
           flutter-version: "3.24.5"
+=======
+          flutter-version: "3.35.7"   # ✅ Flutter avec Dart 3.7.x
+>>>>>>> sauvegarde_commits
           channel: "stable"
 
       - name: 📦 Get Flutter dependencies
